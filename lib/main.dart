@@ -21,16 +21,16 @@ class MyApp extends StatelessWidget {
                 'https://th.bing.com/th/id/R.8977983157be3c3e1222d40fa27897c9?rik=Rprg7yg0XS66Pw&pid=ImgRaw&r=0',
                 width: 250,
               ),
-              SizedBox(
+              const SizedBox(
                 height: 250,
               ),
-              Text('Hello Kurdistan',
+              const Text('Hello Kurdistan',
                   style: TextStyle(
                     fontWeight: FontWeight.bold,
                     fontSize: 25,
                     color: Colors.blue,
                   )),
-              SizedBox(
+              const SizedBox(
                 height: 250,
               ),
               Image.network(
